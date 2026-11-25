@@ -19,3 +19,10 @@ claude plugin install serif-font --marketplace lysdodo4048-dotcom/claude-serif-f
 ```
 
 데스크톱 앱에서 `/plugin`이 동작하지 않을 때: 입력창 옆 **+** → **Plugins** → **Add marketplace**에 `lysdodo4048-dotcom/claude-serif-font` 입력 → **Add plugin**.
+
+## 크롬 웹(claude.ai)에서 쓰기
+
+1. 크롬에 [Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) 확장 프로그램을 설치합니다.
+2. 아래 주소를 엽니다. Stylus가 설치 화면을 띄우면 **설치**를 누릅니다.
+   https://raw.githubusercontent.com/lysdodo4048-dotcom/claude-serif-font/main/claude-serif.user.css
+3. claude.ai를 새로고침합니다.

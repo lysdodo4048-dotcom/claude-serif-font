@@ -1,0 +1,27 @@
+/* ==UserStyle==
+@name         Claude 명조체 (serif-font)
+@namespace    github.com/lysdodo4048-dotcom/claude-serif-font
+@version      0.1.0
+@description  claude.ai 화면 글꼴을 조금 굵은 명조(serif)로 바꿉니다. 코드 블록은 고정폭 글꼴을 유지합니다.
+@updateURL    https://raw.githubusercontent.com/lysdodo4048-dotcom/claude-serif-font/main/claude-serif.user.css
+==/UserStyle== */
+
+@-moz-document domain("claude.ai") {
+  body, body *:not(code):not(pre):not(kbd):not(samp):not(svg):not(svg *) {
+    font-family: "Noto Serif KR", "AppleMyungjo", "Batang", "바탕", "Nanum Myeongjo", serif !important;
+  }
+
+  .font-claude-response, .font-claude-message, .font-user-message, .prose,
+  [data-testid="user-message"], p, li, td, th, blockquote {
+    font-weight: 600 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700 !important;
+  }
+
+  code, pre, kbd, samp, pre *, code * {
+    font-family: ui-monospace, "D2Coding", Menlo, Consolas, monospace !important;
+    font-weight: 400 !important;
+  }
+}
