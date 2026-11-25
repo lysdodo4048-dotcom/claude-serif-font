@@ -1,0 +1,5 @@
+{
+  "name": "claude-serif-font",
+  "owner": { "name": "lysdodo4048-dotcom" },
+  "plugins": [{ "name": "serif-font", "source": "./" }]
+}
